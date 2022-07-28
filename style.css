@@ -4,6 +4,41 @@
 .banner-hight{
     height: 100%;
    }
+.full-navber{
+    position: relative;
+    top: 3px;
+}
+.font-width{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.align-center{
+    margin-left: 10vw;
+}
+.align-center li{
+    margin-left: 1vw;
+}
+
+.navber-button{
+    position:absolute;
+    right: 0;
+    top: 8px;
+    padding: 8px 28px ;
+
+}
+.navbar-toggler{
+    position: absolute;
+    top: 8px;
+    right: 130px;
+
+}
+.hover-color a{
+    transition: .2s;
+}
+
+.hover-color a:hover{
+   color: rgb(113, 255, 255);
+}
 
  /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  
@@ -13,6 +48,17 @@
     .banner-hight{
         height:80%;
        }
+
+       .navber-button{
+        display: none;
+    
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 8px;
+        right: 10px;
+    
+    }
    
 }
 
